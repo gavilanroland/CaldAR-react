@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  display: block;
 }
 
 .App-logo {
@@ -35,4 +38,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+#content , 
+#category {
+  border: 1px solid #000000;
+
+}
+#content {
+ 
+}
+
+
+#form {
+  display: grid ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  width: 90%;
+  align: justify;
+  padding: 5px;
+  margin: 5px;
+}
+
+label {
+  display: block;
+  padding: 2px;
+}
+#button {
+  background: red;
+  color: white;
+  max-width: 800px;
+  justify-content: right;
+  
+  padding: 10px;
+  margin: auto;
+  align: justify;
+  border-radius: 5px;
 }
